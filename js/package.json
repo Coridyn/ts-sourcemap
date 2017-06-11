@@ -1,0 +1,17 @@
+{
+  "name": "js-sourcemap",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src/TestEmitter.js --out-file ./build/TestEmitter.js --source-maps"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "babel": {
+    "sourceMaps": true,
+    "presets": [
+      "es2015"
+    ]
+  }
+}
