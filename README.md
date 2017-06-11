@@ -11,7 +11,7 @@ $ npm install
 $ npm run build
 ```
 
-Then check the sourcemap in the visualizer: http://sokra.github.io/source-map-visualization/
+Then check the `build/TestEmitter.js` and `build/TestEmitter.js.map` sourcemap in the visualizer: http://sokra.github.io/source-map-visualization/
 
 
 
